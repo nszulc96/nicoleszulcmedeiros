@@ -10,9 +10,9 @@
 }
 
 :root {
-    --primary-color: rgb(120, 59, 190);
-    --secondary-color: rgb(199, 117, 41);
-    --tertiary-color: rgb(7, 132, 163);
+    --primary-color: rgb(163, 53, 10);
+    --secondary-color: rgb(174, 177, 6);
+    --tertiary-color: rgb(99, 2, 91);
 }
 
 body {
@@ -466,6 +466,10 @@ body {
     left: 0;
     bottom: 0;
     transition: box-shadow 500ms ease-out, left 500ms ease-out, bottom 500ms ease-out;
+}
+
+.text-social-media {
+    color: white !important;
 }
 
 .social-media:hover {
